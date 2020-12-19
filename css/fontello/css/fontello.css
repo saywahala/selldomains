@@ -1,0 +1,96 @@
+@font-face {
+  font-family: 'fontello';
+  src: url('../font/fontello.eot?32760620');
+  src: url('../font/fontello.eot?32760620#iefix') format('embedded-opentype'),
+       url('../font/fontello.woff2?32760620') format('woff2'),
+       url('../font/fontello.woff?32760620') format('woff'),
+       url('../font/fontello.ttf?32760620') format('truetype'),
+       url('../font/fontello.svg?32760620#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'fontello';
+    src: url('../font/fontello.svg?32760620#fontello') format('svg');
+  }
+}
+*/
+ 
+ [class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+ 
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+ 
+.icon-006-different-squares:before { content: '\e800'; } /* '' */
+.icon-004-exam:before { content: '\e801'; } /* '' */
+.icon-user:before { content: '\e802'; } /* '' */
+.icon-cog-outline:before { content: '\e803'; } /* '' */
+.icon-user-1:before { content: '\e804'; } /* '' */
+.icon-001-customer-service:before { content: '\e805'; } /* '' */
+.icon-002-customer-help-clerk:before { content: '\e806'; } /* '' */
+.icon-002-group:before { content: '\e807'; } /* '' */
+.icon-003-question:before { content: '\e808'; } /* '' */
+.icon-004-question-button:before { content: '\e809'; } /* '' */
+.icon-005-help-button:before { content: '\e80a'; } /* '' */
+.icon-006-question-list:before { content: '\e80b'; } /* '' */
+.icon-001-telemarketer:before { content: '\e80c'; } /* '' */
+.icon-user-add-outline:before { content: '\e80d'; } /* '' */
+.icon-user-outline:before { content: '\e80e'; } /* '' */
+.icon-users-outline:before { content: '\e80f'; } /* '' */
+.icon-user-delete-outline:before { content: '\e810'; } /* '' */
+.icon-003-video-conference:before { content: '\e811'; } /* '' */
+.icon-007-exam:before { content: '\e812'; } /* '' */
+.icon-001-credit-card:before { content: '\e813'; } /* '' */
+.icon-002-discuss-issue:before { content: '\e814'; } /* '' */
+.icon-004-question:before { content: '\e815'; } /* '' */
+.icon-005-question-list:before { content: '\e816'; } /* '' */
+.icon-005-user:before { content: '\e817'; } /* '' */
+.icon-003-delivery-complete:before { content: '\e818'; } /* '' */
+.icon-004-user-1:before { content: '\e819'; } /* '' */
+.icon-006-eye:before { content: '\e81a'; } /* '' */
+.icon-001-exit:before { content: '\e81b'; } /* '' */
+.icon-002-wrong:before { content: '\e81c'; } /* '' */
+.icon-001-checked:before { content: '\e81d'; } /* '' */
+.icon-002-affirmative-check-mark:before { content: '\e81e'; } /* '' */
+.icon-004-video-call:before { content: '\e81f'; } /* '' */
+.icon-uniF100-1:before { content: '\e820'; } /* '' */
+.icon-uniF111:before { content: '\e821'; } /* '' */
+.icon-uniF112:before { content: '\e822'; } /* '' */
+.icon-uniF113:before { content: '\e823'; } /* '' */
+.icon-uniF100:before { content: '\f100'; } /* '' */
+.icon-uniF101:before { content: '\f101'; } /* '' */
+.icon-uniF102:before { content: '\f102'; } /* '' */
